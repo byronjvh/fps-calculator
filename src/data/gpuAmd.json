@@ -1,0 +1,287 @@
+[
+    {
+        "name": "Radeon R5 220"
+    },
+    {
+        "name": "Radeon R5 230"
+    },
+    {
+        "name": "Radeon R5 235"
+    },
+    {
+        "name": "Radeon R5 235X"
+    },
+    {
+        "name": "Radeon R5 240"
+    },
+    {
+        "name": "Radeon R7 240"
+    },
+    {
+        "name": "Radeon R7 250"
+    },
+    {
+        "name": "Radeon R7 250E"
+    },
+    {
+        "name": "Radeon R7 250X"
+    },
+    {
+        "name": "Radeon R7 260"
+    },
+    {
+        "name": "Radeon R7 260X"
+    },
+    {
+        "name": "Radeon R7 265"
+    },
+    {
+        "name": "Radeon R9 270"
+    },
+    {
+        "name": "Radeon R9 270X"
+    },
+    {
+        "name": "Radeon R9 280"
+    },
+    {
+        "name": "Radeon R9 280X"
+    },
+    {
+        "name": "Radeon R9 285"
+    },
+    {
+        "name": "Radeon R9 285X"
+    },
+    {
+        "name": "Radeon R9 290"
+    },
+    {
+        "name": "Radeon R9 290X"
+    },
+    {
+        "name": "Radeon R9 295X2"
+    },
+    {
+        "name": "Radeon R5 330"
+    },
+    {
+        "name": "Radeon R5 340"
+    },
+    {
+        "name": "Radeon R5 340X"
+    },
+    {
+        "name": "Radeon R7 350"
+    },
+    {
+        "name": "Radeon R7 350X"
+    },
+    {
+        "name": "Radeon R7 360"
+    },
+    {
+        "name": "Radeon R7 370"
+    },
+    {
+        "name": "Radeon R9 370X"
+    },
+    {
+        "name": "Radeon R9 380"
+    },
+    {
+        "name": "Radeon R9 380X"
+    },
+    {
+        "name": "Radeon R9 390"
+    },
+    {
+        "name": "Radeon R9 390X"
+    },
+    {
+        "name": "Radeon R9 Fury"
+    },
+    {
+        "name": "Radeon R9 Nano"
+    },
+    {
+        "name": "Radeon R9 Fury X"
+    },
+    {
+        "name": "Radeon Pro Duo"
+    },
+    {
+        "name": "Radeon R5 430"
+    },
+    {
+        "name": "Radeon R7 435"
+    },
+    {
+        "name": "Radeon R7 450"
+    },
+    {
+        "name": "Radeon RX 455"
+    },
+    {
+        "name": "Radeon RX 460"
+    },
+    {
+        "name": "Radeon RX 470D"
+    },
+    {
+        "name": "Radeon RX 470"
+    },
+    {
+        "name": "Radeon RX 480"
+    },
+    {
+        "name": "Radeon 520"
+    },
+    {
+        "name": "Radeon 530"
+    },
+    {
+        "name": "Radeon RX 540"
+    },
+    {
+        "name": "Radeon RX 550"
+    },
+    {
+        "name": "Radeon RX 550 640SP"
+    },
+    {
+        "name": "Radeon RX 550X"
+    },
+    {
+        "name": "Radeon RX 550X 640SP"
+    },
+    {
+        "name": "Radeon RX 560D"
+    },
+    {
+        "name": "Radeon RX 560"
+    },
+    {
+        "name": "Radeon RX 560 XT"
+    },
+    {
+        "name": "Radeon RX 570"
+    },
+    {
+        "name": "Radeon RX 580 2048SP"
+    },
+    {
+        "name": "Radeon RX 580"
+    },
+    {
+        "name": "Radeon RX 590 GME"
+    },
+    {
+        "name": "Radeon RX 590"
+    },
+    {
+        "name": "Radeon RX Vega 56"
+    },
+    {
+        "name": "Radeon RX Vega 64"
+    },
+    {
+        "name": "Radeon RX Vega 64 Liquid"
+    },
+    {
+        "name": "Radeon VII"
+    },
+    {
+        "name": "Radeon RX 5300"
+    },
+    {
+        "name": "Radeon RX 5300 XT"
+    },
+    {
+        "name": "Radeon RX 5500"
+    },
+    {
+        "name": "Radeon RX 5500 XT"
+    },
+    {
+        "name": "Radeon RX 5600"
+    },
+    {
+        "name": "Radeon RX 5600 XT"
+    },
+    {
+        "name": "Radeon RX 5700"
+    },
+    {
+        "name": "Radeon RX 5700 XT"
+    },
+    {
+        "name": "Radeon RX 5700 XT 50th Anniversary Edition"
+    },
+    {
+        "name": "Radeon RX 6300"
+    },
+    {
+        "name": "Radeon RX 6400"
+    },
+    {
+        "name": "Radeon RX 6500 XT"
+    },
+    {
+        "name": "Radeon RX 6600"
+    },
+    {
+        "name": "Radeon RX 6600 XT"
+    },
+    {
+        "name": "Radeon RX 6650 XT"
+    },
+    {
+        "name": "Radeon RX 6700"
+    },
+    {
+        "name": "Radeon RX 6750 GRE 10GB"
+    },
+    {
+        "name": "Radeon RX 6700 XT"
+    },
+    {
+        "name": "Radeon RX 6750 GRE 12GB"
+    },
+    {
+        "name": "Radeon RX 6750 XT"
+    },
+    {
+        "name": "Radeon RX 6800"
+    },
+    {
+        "name": "Radeon RX 6800 XT"
+    },
+    {
+        "name": "Radeon RX 6900 XT"
+    },
+    {
+        "name": "Radeon RX 6950 XT"
+    },
+    {
+        "name": "Radeon RX 7600"
+    },
+    {
+        "name": "Radeon RX 7600 XT"
+    },
+    {
+        "name": "Radeon RX 7700 XT"
+    },
+    {
+        "name": "Radeon RX 7800 XT"
+    },
+    {
+        "name": "Radeon RX 7900 GRE"
+    },
+    {
+        "name": "Radeon RX 7900 XT"
+    },
+    {
+        "name": "Radeon RX 7900 XTX"
+    }
+]

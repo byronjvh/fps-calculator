@@ -1,0 +1,563 @@
+[
+    {
+        "name": "Ryzen 5 PRO 3400G"
+    },
+    {
+        "name": "Ryzen 5 3400G"
+    },
+    {
+        "name": "Ryzen 5 PRO 3400GE"
+    },
+    {
+        "name": "Ryzen 5 PRO 3350G"
+    },
+    {
+        "name": "Ryzen 5 PRO 3350GE"
+    },
+    {
+        "name": "Ryzen 3 PRO 3200G"
+    },
+    {
+        "name": "Ryzen 3 3200G"
+    },
+    {
+        "name": "Ryzen 3 PRO 3200GE"
+    },
+    {
+        "name": "Ryzen 3 3200GE"
+    },
+    {
+        "name": "Ryzen 9 3950X"
+    },
+    {
+        "name": "Ryzen 9 3900XT"
+    },
+    {
+        "name": "Ryzen 9 3900X"
+    },
+    {
+        "name": "Ryzen 9 3900"
+    },
+    {
+        "name": "Ryzen 7 3800XT"
+    },
+    {
+        "name": "Ryzen 7 3800X"
+    },
+    {
+        "name": "Ryzen 7 3700X"
+    },
+    {
+        "name": "Ryzen 5 3600XT"
+    },
+    {
+        "name": "Ryzen 5 3600X"
+    },
+    {
+        "name": "Ryzen 5 3600"
+    },
+    {
+        "name": "Ryzen 5 3500X"
+    },
+    {
+        "name": "Ryzen 5 3500"
+    },
+    {
+        "name": "Ryzen 3 3300X"
+    },
+    {
+        "name": "Ryzen 3 3100"
+    },
+    {
+        "name": "Ryzen 5 4500"
+    },
+    {
+        "name": "Ryzen 3 4100"
+    },
+    {
+        "name": "Ryzen 7 4700G"
+    },
+    {
+        "name": "Ryzen 7 4700GE"
+    },
+    {
+        "name": "Ryzen 5 4600G"
+    },
+    {
+        "name": "Ryzen 5 4600GE"
+    },
+    {
+        "name": "Ryzen 3 4300G"
+    },
+    {
+        "name": "Ryzen 3 4300GE"
+    },
+    {
+        "name": "Ryzen 9 5950X"
+    },
+    {
+        "name": "Ryzen 9 5900XT"
+    },
+    {
+        "name": "Ryzen 9 5900X"
+    },
+    {
+        "name": "Ryzen 9 5900"
+    },
+    {
+        "name": "Ryzen 9 PRO 5945"
+    },
+    {
+        "name": "Ryzen 7 5800X3D"
+    },
+    {
+        "name": "Ryzen 7 5800XT"
+    },
+    {
+        "name": "Ryzen 7 5800X"
+    },
+    {
+        "name": "Ryzen 7 5800"
+    },
+    {
+        "name": "Ryzen 7 5700X3D"
+    },
+    {
+        "name": "Ryzen 7 5700X"
+    },
+    {
+        "name": "Ryzen 7 PRO 5845"
+    },
+    {
+        "name": "Ryzen 5 5600X3D"
+    },
+    {
+        "name": "Ryzen 5 5600XT"
+    },
+    {
+        "name": "Ryzen 5 5600X"
+    },
+    {
+        "name": "Ryzen 5 5600T"
+    },
+    {
+        "name": "Ryzen 5 5600"
+    },
+    {
+        "name": "Ryzen 5 PRO 5645"
+    },
+    {
+        "name": "Ryzen 5 5500"
+    },
+    {
+        "name": "Ryzen 7 5700"
+    },
+    {
+        "name": "Ryzen 3 5100"
+    },
+    {
+        "name": "Ryzen 7 5700G"
+    },
+    {
+        "name": "Ryzen 7 5700GE"
+    },
+    {
+        "name": "Ryzen 5 5600GT"
+    },
+    {
+        "name": "Ryzen 5 5600G"
+    },
+    {
+        "name": "Ryzen 5 5600GE"
+    },
+    {
+        "name": "Ryzen 5 5500GT"
+    },
+    {
+        "name": "Ryzen 3 5300G"
+    },
+    {
+        "name": "Ryzen 3 5300GE"
+    },
+    {
+        "name": "Ryzen 9 7950X3D"
+    },
+    {
+        "name": "Ryzen 9 7950X"
+    },
+    {
+        "name": "Ryzen 9 7900X3D"
+    },
+    {
+        "name": "Ryzen 9 7900X"
+    },
+    {
+        "name": "Ryzen 9 7900"
+    },
+    {
+        "name": "Ryzen 9 PRO 7945"
+    },
+    {
+        "name": "Ryzen 7 7800X3D"
+    },
+    {
+        "name": "Ryzen 7 7700X"
+    },
+    {
+        "name": "Ryzen 7 7700"
+    },
+    {
+        "name": "Ryzen 7 PRO 7745"
+    },
+    {
+        "name": "Ryzen 5 7600X3D"
+    },
+    {
+        "name": "Ryzen 5 7600X"
+    },
+    {
+        "name": "Ryzen 5 7600"
+    },
+    {
+        "name": "Ryzen 5 PRO 7645"
+    },
+    {
+        "name": "Ryzen 5 7500F"
+    },
+    {
+        "name": "Ryzen 7 8700F"
+    },
+    {
+        "name": "Ryzen 5 8400F"
+    },
+    {
+        "name": "Ryzen 7 8700G"
+    },
+    {
+        "name": "Ryzen 5 8600G"
+    },
+    {
+        "name": "Ryzen 5 8500G"
+    },
+    {
+        "name": "Ryzen 3 8300G"
+    },
+    {
+        "name": "Ryzen 9 9950X"
+    },
+    {
+        "name": "Ryzen 9 9900X"
+    },
+    {
+        "name": "Ryzen 7 9800X3D"
+    },
+    {
+        "name": "Ryzen 7 9700X"
+    },
+    {
+        "name": "Ryzen 5 9600X"
+    },
+    {
+        "name": "Ryzen 3 3250U"
+    },
+    {
+        "name": "Ryzen 3 3250C"
+    },
+    {
+        "name": "Ryzen 3 3200U"
+    },
+    {
+        "name": "Ryzen 7 3780U"
+    },
+    {
+        "name": "Ryzen 7 3750H"
+    },
+    {
+        "name": "Ryzen 7 3700C"
+    },
+    {
+        "name": "Ryzen 7 3700U"
+    },
+    {
+        "name": "Ryzen 5 3580U"
+    },
+    {
+        "name": "Ryzen 5 3550H"
+    },
+    {
+        "name": "Ryzen 5 3500C"
+    },
+    {
+        "name": "Ryzen 5 3500U"
+    },
+    {
+        "name": "Ryzen 5 3450U"
+    },
+    {
+        "name": "Ryzen 3 3350U"
+    },
+    {
+        "name": "Ryzen 3 3300U"
+    },
+    {
+        "name": "Ryzen 9 4900H"
+    },
+    {
+        "name": "Ryzen 9 4900HS"
+    },
+    {
+        "name": "Ryzen 7 4800H"
+    },
+    {
+        "name": "Ryzen 7 4800HS"
+    },
+    {
+        "name": "Ryzen 7 4980U"
+    },
+    {
+        "name": "Ryzen 7 4800U"
+    },
+    {
+        "name": "Ryzen 7 4700U"
+    },
+    {
+        "name": "Ryzen 5 4600H"
+    },
+    {
+        "name": "Ryzen 5 4600HS"
+    },
+    {
+        "name": "Ryzen 5 4680U"
+    },
+    {
+        "name": "Ryzen 5 4600U"
+    },
+    {
+        "name": "Ryzen 5 4500U"
+    },
+    {
+        "name": "Ryzen 3 4300U"
+    },
+    {
+        "name": "Ryzen 9 5980HX"
+    },
+    {
+        "name": "Ryzen 9 5980HS"
+    },
+    {
+        "name": "Ryzen 9 5900HX"
+    },
+    {
+        "name": "Ryzen 9 5900HS"
+    },
+    {
+        "name": "Ryzen 7 5800H"
+    },
+    {
+        "name": "Ryzen 7 5800HS"
+    },
+    {
+        "name": "Ryzen 7 5825U"
+    },
+    {
+        "name": "Ryzen 7 5800U"
+    },
+    {
+        "name": "Ryzen 5 5600H"
+    },
+    {
+        "name": "Ryzen 5 5600HS"
+    },
+    {
+        "name": "Ryzen 5 5625U"
+    },
+    {
+        "name": "Ryzen 5 5600U"
+    },
+    {
+        "name": "Ryzen 5 5500H"
+    },
+    {
+        "name": "Ryzen 3 5425U"
+    },
+    {
+        "name": "Ryzen 3 5400U"
+    },
+    {
+        "name": "Ryzen 3 5125C"
+    },
+    {
+        "name": "Ryzen 9 6980HX"
+    },
+    {
+        "name": "Ryzen 9 6980HS"
+    },
+    {
+        "name": "Ryzen 9 6900HX"
+    },
+    {
+        "name": "Ryzen 9 6900HS"
+    },
+    {
+        "name": "Ryzen 7 6800H"
+    },
+    {
+        "name": "Ryzen 7 6800HS"
+    },
+    {
+        "name": "Ryzen 7 6800U"
+    },
+    {
+        "name": "Ryzen 5 6600H"
+    },
+    {
+        "name": "Ryzen 5 6600HS"
+    },
+    {
+        "name": "Ryzen 5 6600U"
+    },
+    {
+        "name": "Ryzen 5 7520U"
+    },
+    {
+        "name": "Ryzen 3 7320U"
+    },
+    {
+        "name": "Ryzen 7 7730U"
+    },
+    {
+        "name": "Ryzen 5 7530U"
+    },
+    {
+        "name": "Ryzen 3 7330U"
+    },
+    {
+        "name": "Ryzen 7 7735HS"
+    },
+    {
+        "name": "Ryzen 7 7735H"
+    },
+    {
+        "name": "Ryzen 7 7736U"
+    },
+    {
+        "name": "Ryzen 7 7735U"
+    },
+    {
+        "name": "Ryzen 7 7435HS"
+    },
+    {
+        "name": "Ryzen 7 7435H"
+    },
+    {
+        "name": "Ryzen 5 7535HS"
+    },
+    {
+        "name": "Ryzen 5 7535H"
+    },
+    {
+        "name": "Ryzen 5 7535U"
+    },
+    {
+        "name": "Ryzen 5 7235HS"
+    },
+    {
+        "name": "Ryzen 5 7235H"
+    },
+    {
+        "name": "Ryzen 3 7335U"
+    },
+    {
+        "name": "Ryzen 9 7940HS"
+    },
+    {
+        "name": "Ryzen 9 7940H"
+    },
+    {
+        "name": "Ryzen 7 7840HS"
+    },
+    {
+        "name": "Ryzen 7 7840H"
+    },
+    {
+        "name": "Ryzen 7 7840U"
+    },
+    {
+        "name": "Ryzen 5 7640HS"
+    },
+    {
+        "name": "Ryzen 5 7640H"
+    },
+    {
+        "name": "Ryzen 5 7640U"
+    },
+    {
+        "name": "Ryzen 5 7545U"
+    },
+    {
+        "name": "Ryzen 5 7540U"
+    },
+    {
+        "name": "Ryzen 3 7440U"
+    },
+    {
+        "name": "Ryzen 9 7945HX3D"
+    },
+    {
+        "name": "Ryzen 9 7945HX"
+    },
+    {
+        "name": "Ryzen 9 7940HX"
+    },
+    {
+        "name": "Ryzen 7 7845HX"
+    },
+    {
+        "name": "Ryzen 7 7745HX"
+    },
+    {
+        "name": "Ryzen 5 7645HX"
+    },
+    {
+        "name": "Ryzen 9 8945HS"
+    },
+    {
+        "name": "Ryzen 7 8845HS"
+    },
+    {
+        "name": "Ryzen 7 8840HS"
+    },
+    {
+        "name": "Ryzen 7 8840U"
+    },
+    {
+        "name": "Ryzen 5 8645HS"
+    },
+    {
+        "name": "Ryzen 5 8640HS"
+    },
+    {
+        "name": "Ryzen 5 8640U"
+    },
+    {
+        "name": "Ryzen 5 8540U"
+    },
+    {
+        "name": "Ryzen 3 8440U"
+    },
+    {
+        "name": "Ryzen Embedded 7945"
+    },
+    {
+        "name": "Ryzen Embedded 7745"
+    },
+    {
+        "name": "Ryzen Embedded 7700X"
+    },
+    {
+        "name": "Ryzen Embedded 7645"
+    },
+    {
+        "name": "Ryzen Embedded 7600X"
+    }
+]

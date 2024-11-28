@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.select-button ul::-webkit-scrollbar {
+    width: 8px;
+}
+
+.select-button ul::-webkit-scrollbar-track {
+    background: rgb(248, 248, 248)
+}
+
+.select-button ul::-webkit-scrollbar-thumb {
+    background-color: rgb(194, 194, 194);
+    border-radius: 9999px;
+}

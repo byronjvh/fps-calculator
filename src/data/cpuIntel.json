@@ -1,0 +1,1046 @@
+[
+    {
+        "name": "Core i9-14900KS"
+    },
+    {
+        "name": "Core i9-14900"
+    },
+    {
+        "name": "Core i9-14900F"
+    },
+    {
+        "name": "Core i9-14900HX"
+    },
+    {
+        "name": "Core i9-14900T"
+    },
+    {
+        "name": "Core i9-14900K"
+    },
+    {
+        "name": "Core i9-14900KF"
+    },
+    {
+        "name": "Core i7-14650HX"
+    },
+    {
+        "name": "Core i7-14700"
+    },
+    {
+        "name": "Core i7-14700F"
+    },
+    {
+        "name": "Core i7-14700HX"
+    },
+    {
+        "name": "Core i7-14700T"
+    },
+    {
+        "name": "Core i7-14700K"
+    },
+    {
+        "name": "Core i7-14700KF"
+    },
+    {
+        "name": "Core i5-14400"
+    },
+    {
+        "name": "Core i5-14400F"
+    },
+    {
+        "name": "Core i5-14400T"
+    },
+    {
+        "name": "Core i5-14450HX"
+    },
+    {
+        "name": "Core i5-14500"
+    },
+    {
+        "name": "Core i5-14500HX"
+    },
+    {
+        "name": "Core i5-14500T"
+    },
+    {
+        "name": "Core i5-14600"
+    },
+    {
+        "name": "Core i5-14600T"
+    },
+    {
+        "name": "Core i5-14600K"
+    },
+    {
+        "name": "Core i5-14600KF"
+    },
+    {
+        "name": "Core i3-14100"
+    },
+    {
+        "name": "Core i3-14100F"
+    },
+    {
+        "name": "Core i3-14100T"
+    },
+    {
+        "name": "Core i9-13900KS"
+    },
+    {
+        "name": "Core i9-13900"
+    },
+    {
+        "name": "Core i9-13900E"
+    },
+    {
+        "name": "Core i9-13900F"
+    },
+    {
+        "name": "Core i9-13900H"
+    },
+    {
+        "name": "Core i9-13900HK"
+    },
+    {
+        "name": "Core i9-13900HX"
+    },
+    {
+        "name": "Core i9-13900T"
+    },
+    {
+        "name": "Core i9-13900TE"
+    },
+    {
+        "name": "Core i9-13905H"
+    },
+    {
+        "name": "Core i9-13950HX"
+    },
+    {
+        "name": "Core i9-13980HX"
+    },
+    {
+        "name": "Core i9-13900K"
+    },
+    {
+        "name": "Core i9-13900KF"
+    },
+    {
+        "name": "Core i7-1355U"
+    },
+    {
+        "name": "Core i7-1360P"
+    },
+    {
+        "name": "Core i7-13620H"
+    },
+    {
+        "name": "Core i7-13650HX"
+    },
+    {
+        "name": "Core i7-1365U"
+    },
+    {
+        "name": "Core i7-1365UE"
+    },
+    {
+        "name": "Core i7-13700"
+    },
+    {
+        "name": "Core i7-13700E"
+    },
+    {
+        "name": "Core i7-13700F"
+    },
+    {
+        "name": "Core i7-13700H"
+    },
+    {
+        "name": "Core i7-13700HX"
+    },
+    {
+        "name": "Core i7-13700T"
+    },
+    {
+        "name": "Core i7-13700TE"
+    },
+    {
+        "name": "Core i7-13705H"
+    },
+    {
+        "name": "Core i7-1370P"
+    },
+    {
+        "name": "Core i7-1370PE"
+    },
+    {
+        "name": "Core i7-1375PRE"
+    },
+    {
+        "name": "Core i7-13800H"
+    },
+    {
+        "name": "Core i7-13800HE"
+    },
+    {
+        "name": "Core i7-13850HX"
+    },
+    {
+        "name": "Core i7-13800HRE"
+    },
+    {
+        "name": "Core i7-13700K"
+    },
+    {
+        "name": "Core i7-13700KF"
+    },
+    {
+        "name": "Core i7-1365URE"
+    },
+    {
+        "name": "Core i7-1366URE"
+    },
+    {
+        "name": "Core i7-1370PRE"
+    },
+    {
+        "name": "Core i5-1334U"
+    },
+    {
+        "name": "Core i5-1335U"
+    },
+    {
+        "name": "Core i5-1335UE"
+    },
+    {
+        "name": "Core i5-13400"
+    },
+    {
+        "name": "Core i5-13400E"
+    },
+    {
+        "name": "Core i5-13400F"
+    },
+    {
+        "name": "Core i5-13400T"
+    },
+    {
+        "name": "Core i5-1340P"
+    },
+    {
+        "name": "Core i5-1340PE"
+    },
+    {
+        "name": "Core i5-13420H"
+    },
+    {
+        "name": "Core i5-13450HX"
+    },
+    {
+        "name": "Core i5-1345U"
+    },
+    {
+        "name": "Core i5-1345UE"
+    },
+    {
+        "name": "Core i5-1345URE"
+    },
+    {
+        "name": "Core i5-13500"
+    },
+    {
+        "name": "Core i5-13500E"
+    },
+    {
+        "name": "Core i5-13500H"
+    },
+    {
+        "name": "Core i5-13500H"
+    },
+    {
+        "name": "Core i5-13500HX"
+    },
+    {
+        "name": "Core i5-13500T"
+    },
+    {
+        "name": "Core i5-13500TE"
+    },
+    {
+        "name": "Core i5-13505H"
+    },
+    {
+        "name": "Core i5-1350P"
+    },
+    {
+        "name": "Core i5-1350PE"
+    },
+    {
+        "name": "Core i5-13600"
+    },
+    {
+        "name": "Core i5-13600H"
+    },
+    {
+        "name": "Core i5-13600HE"
+    },
+    {
+        "name": "Core i5-13600HX"
+    },
+    {
+        "name": "Core i5-13600T"
+    },
+    {
+        "name": "Core i5-1350PRE"
+    },
+    {
+        "name": "Core i5-13600HRE"
+    },
+    {
+        "name": "Core i5-13600K"
+    },
+    {
+        "name": "Core i5-13600KF"
+    },
+    {
+        "name": "Core i3-1305U"
+    },
+    {
+        "name": "Core i3-13100"
+    },
+    {
+        "name": "Core i3-13100E"
+    },
+    {
+        "name": "Core i3-13100F"
+    },
+    {
+        "name": "Core i3-13100T"
+    },
+    {
+        "name": "Core i3-13100TE"
+    },
+    {
+        "name": "Core i3-1315U"
+    },
+    {
+        "name": "Core i3-1315U"
+    },
+    {
+        "name": "Core i3-1315UE"
+    },
+    {
+        "name": "Core i3-1315URE"
+    },
+    {
+        "name": "Core i3-1320PE"
+    },
+    {
+        "name": "Core i3-13300HE"
+    },
+    {
+        "name": "Core i3-1320PRE"
+    },
+    {
+        "name": "Core i3-13300HRE"
+    },
+    {
+        "name": "Core i9-12900K"
+    },
+    {
+        "name": "Core i9-12900KF"
+    },
+    {
+        "name": "Core i9-12900"
+    },
+    {
+        "name": "Core i9-12900E"
+    },
+    {
+        "name": "Core i9-12900F"
+    },
+    {
+        "name": "Core i9-12900H"
+    },
+    {
+        "name": "Core i9-12900HK"
+    },
+    {
+        "name": "Core i9-12900T"
+    },
+    {
+        "name": "Core i9-12900TE"
+    },
+    {
+        "name": "Core i9-12900KS"
+    },
+    {
+        "name": "Core i9-12900HX"
+    },
+    {
+        "name": "Core i9-12950HX"
+    },
+    {
+        "name": "Core i7-12700K"
+    },
+    {
+        "name": "Core i7-12700KF"
+    },
+    {
+        "name": "Core i7-12650H"
+    },
+    {
+        "name": "Core i7-12700"
+    },
+    {
+        "name": "Core i7-12700E"
+    },
+    {
+        "name": "Core i7-12700F"
+    },
+    {
+        "name": "Core i7-12700H"
+    },
+    {
+        "name": "Core i7-12700T"
+    },
+    {
+        "name": "Core i7-12700TE"
+    },
+    {
+        "name": "Core i7-12800H"
+    },
+    {
+        "name": "Core i7-12800HE"
+    },
+    {
+        "name": "Core i7-1250U"
+    },
+    {
+        "name": "Core i7-1255U"
+    },
+    {
+        "name": "Core i7-1260P"
+    },
+    {
+        "name": "Core i7-1260U"
+    },
+    {
+        "name": "Core i7-1265U"
+    },
+    {
+        "name": "Core i7-1270P"
+    },
+    {
+        "name": "Core i7-1280P"
+    },
+    {
+        "name": "Core i7-1265UE"
+    },
+    {
+        "name": "Core i7-1270PE"
+    },
+    {
+        "name": "Core i7-12650HX"
+    },
+    {
+        "name": "Core i7-12800HX"
+    },
+    {
+        "name": "Core i7-12850HX"
+    },
+    {
+        "name": "Core i7-1255UL"
+    },
+    {
+        "name": "Core i7-1265UL"
+    },
+    {
+        "name": "Core i7-12700HL"
+    },
+    {
+        "name": "Core i7-12800HL"
+    },
+    {
+        "name": "Core i5-12600K"
+    },
+    {
+        "name": "Core i5-12600KF"
+    },
+    {
+        "name": "Core i5-12400"
+    },
+    {
+        "name": "Core i5-12400F"
+    },
+    {
+        "name": "Core i5-12400T"
+    },
+    {
+        "name": "Core i5-12450H"
+    },
+    {
+        "name": "Core i5-12500"
+    },
+    {
+        "name": "Core i5-12500E"
+    },
+    {
+        "name": "Core i5-12500H"
+    },
+    {
+        "name": "Core i5-12500T"
+    },
+    {
+        "name": "Core i5-12500TE"
+    },
+    {
+        "name": "Core i5-12600"
+    },
+    {
+        "name": "Core i5-12600H"
+    },
+    {
+        "name": "Core i5-12600HE"
+    },
+    {
+        "name": "Core i5-12600T"
+    },
+    {
+        "name": "Core i5-1230U"
+    },
+    {
+        "name": "Core i5-1235U"
+    },
+    {
+        "name": "Core i5-1235U"
+    },
+    {
+        "name": "Core i5-1240P"
+    },
+    {
+        "name": "Core i5-1240U"
+    },
+    {
+        "name": "Core i5-1245U"
+    },
+    {
+        "name": "Core i5-1250P"
+    },
+    {
+        "name": "Core i5-1245UE"
+    },
+    {
+        "name": "Core i5-1250PE"
+    },
+    {
+        "name": "Core i5-12450HX"
+    },
+    {
+        "name": "Core i5-12600HX"
+    },
+    {
+        "name": "Core i5-1235UL"
+    },
+    {
+        "name": "Core i5-1245UL"
+    },
+    {
+        "name": "Core i5-12500HL"
+    },
+    {
+        "name": "Core i5-12600HL"
+    },
+    {
+        "name": "Core i3-12100"
+    },
+    {
+        "name": "Core i3-12100E"
+    },
+    {
+        "name": "Core i3-12100F"
+    },
+    {
+        "name": "Core i3-12100T"
+    },
+    {
+        "name": "Core i3-12100TE"
+    },
+    {
+        "name": "Core i3-12300"
+    },
+    {
+        "name": "Core i3-12300HE"
+    },
+    {
+        "name": "Core i3-12300T"
+    },
+    {
+        "name": "Core i3-1210U"
+    },
+    {
+        "name": "Core i3-1215U"
+    },
+    {
+        "name": "Core i3-1215U"
+    },
+    {
+        "name": "Core i3-1220P"
+    },
+    {
+        "name": "Core i3-1215UE"
+    },
+    {
+        "name": "Core i3-1220PE"
+    },
+    {
+        "name": "Core i3-1215UL"
+    },
+    {
+        "name": "Core i3-12300HL"
+    },
+    {
+        "name": "Core i9-11900"
+    },
+    {
+        "name": "Core i9-11900F"
+    },
+    {
+        "name": "Core i9-11900K"
+    },
+    {
+        "name": "Core i9-11900KF"
+    },
+    {
+        "name": "Core i9-11900T"
+    },
+    {
+        "name": "Core i9-11900H"
+    },
+    {
+        "name": "Core i9-11950H"
+    },
+    {
+        "name": "Core i9-11980HK"
+    },
+    {
+        "name": "Core i7-1160G7"
+    },
+    {
+        "name": "Core i7-1165G7"
+    },
+    {
+        "name": "Core i7-1165G7"
+    },
+    {
+        "name": "Core i7-1185G7"
+    },
+    {
+        "name": "Core i7-1185G7E"
+    },
+    {
+        "name": "Core i7-1185GRE"
+    },
+    {
+        "name": "Core i7-11370H"
+    },
+    {
+        "name": "Core 17-11375H"
+    },
+    {
+        "name": "Core i7-1180G7"
+    },
+    {
+        "name": "Core i7-11700"
+    },
+    {
+        "name": "Core i7-11700F"
+    },
+    {
+        "name": "Core i7-11700K"
+    },
+    {
+        "name": "Core i7-11700KF"
+    },
+    {
+        "name": "Core i7-11700T"
+    },
+    {
+        "name": "Core i7-11800H"
+    },
+    {
+        "name": "Core i7-11850H"
+    },
+    {
+        "name": "Core i7-1195G7"
+    },
+    {
+        "name": "Core i7-1195G7"
+    },
+    {
+        "name": "Core i7-11390H"
+    },
+    {
+        "name": "Core i7-11600H"
+    },
+    {
+        "name": "Core i7-11850HE"
+    },
+    {
+        "name": "Core i5-1130G7"
+    },
+    {
+        "name": "Core i5-1135G7"
+    },
+    {
+        "name": "Core i5-1135G7"
+    },
+    {
+        "name": "Core i5-1145G7E"
+    },
+    {
+        "name": "Core i5-1145GRE"
+    },
+    {
+        "name": "Core i5-11300H"
+    },
+    {
+        "name": "Core i5-1140G7"
+    },
+    {
+        "name": "Core i5-1145G7"
+    },
+    {
+        "name": "Core i5-11400"
+    },
+    {
+        "name": "Core i5-11400F"
+    },
+    {
+        "name": "Core i5-11400T"
+    },
+    {
+        "name": "Core i5-11500"
+    },
+    {
+        "name": "Core i5-11500T"
+    },
+    {
+        "name": "Core i5-11600"
+    },
+    {
+        "name": "Core i5-11600K"
+    },
+    {
+        "name": "Core i5-11600KF"
+    },
+    {
+        "name": "Core i5-11600T"
+    },
+    {
+        "name": "Core i5-11260H"
+    },
+    {
+        "name": "Core i5-11400H"
+    },
+    {
+        "name": "Core i5-11500H"
+    },
+    {
+        "name": "Core i5-1155G7"
+    },
+    {
+        "name": "Core i5-1155G7"
+    },
+    {
+        "name": "Core i5-11320H"
+    },
+    {
+        "name": "Core i5-11500HE"
+    },
+    {
+        "name": "Core i3-1110G4"
+    },
+    {
+        "name": "Core i3-1115G4"
+    },
+    {
+        "name": "Core i3-1115G4"
+    },
+    {
+        "name": "Core i3-1115G4E"
+    },
+    {
+        "name": "Core i3-1115GRE"
+    },
+    {
+        "name": "Core i3-1120G4"
+    },
+    {
+        "name": "Core i3-1125G4"
+    },
+    {
+        "name": "Core i3-1125G4"
+    },
+    {
+        "name": "Core i3-11100HE"
+    },
+    {
+        "name": "Core i9-10900X"
+    },
+    {
+        "name": "Core i9-10920X"
+    },
+    {
+        "name": "Core i9-10940X"
+    },
+    {
+        "name": "Core i9-10980XE"
+    },
+    {
+        "name": "Core i9-10980HK"
+    },
+    {
+        "name": "Core i9-10900"
+    },
+    {
+        "name": "Core i9-10900E"
+    },
+    {
+        "name": "Core i9-10900F"
+    },
+    {
+        "name": "Core i9-10900K"
+    },
+    {
+        "name": "Core i9-10900KF"
+    },
+    {
+        "name": "Core i9-10900T"
+    },
+    {
+        "name": "Core i9-10900TE"
+    },
+    {
+        "name": "Core i9-10885H"
+    },
+    {
+        "name": "Core i9-10850K"
+    },
+    {
+        "name": "Core i7-1065G7"
+    },
+    {
+        "name": "Core i7-10510U"
+    },
+    {
+        "name": "Core i7-10510Y"
+    },
+    {
+        "name": "Core i7-10710U"
+    },
+    {
+        "name": "Core i7-10750H"
+    },
+    {
+        "name": "Core i7-10850H"
+    },
+    {
+        "name": "Core i7-10875H"
+    },
+    {
+        "name": "Core i7-10700"
+    },
+    {
+        "name": "Core i7-10700E"
+    },
+    {
+        "name": "Core i7-10700F"
+    },
+    {
+        "name": "Core i7-10700K"
+    },
+    {
+        "name": "Core i7-10700KF"
+    },
+    {
+        "name": "Core i7-10700T"
+    },
+    {
+        "name": "Core i7-10700TE"
+    },
+    {
+        "name": "Core i7-10610U"
+    },
+    {
+        "name": "Core i7-10810U"
+    },
+    {
+        "name": "Core i7-10870H"
+    },
+    {
+        "name": "Core i5-1035G1"
+    },
+    {
+        "name": "Core i5-1035G4"
+    },
+    {
+        "name": "Core i5-1035G7"
+    },
+    {
+        "name": "Core i5-10210U"
+    },
+    {
+        "name": "Core i5-10210Y"
+    },
+    {
+        "name": "Core i5-10310Y"
+    },
+    {
+        "name": "Core i5-10300H"
+    },
+    {
+        "name": "Core i5-10400H"
+    },
+    {
+        "name": "Core i5-10400"
+    },
+    {
+        "name": "Core i5-10400F"
+    },
+    {
+        "name": "Core i5-10400T"
+    },
+    {
+        "name": "Core i5-10500"
+    },
+    {
+        "name": "Core i5-10500E"
+    },
+    {
+        "name": "Core i5-10500T"
+    },
+    {
+        "name": "Core i5-10500TE"
+    },
+    {
+        "name": "Core i5-10600"
+    },
+    {
+        "name": "Core i5-10600K"
+    },
+    {
+        "name": "Core i5-10600KF"
+    },
+    {
+        "name": "Core i5-10600T"
+    },
+    {
+        "name": "Core i5-10310U"
+    },
+    {
+        "name": "Core i5-10200H"
+    },
+    {
+        "name": "Core i5-10500H"
+    },
+    {
+        "name": "Core i5-10505"
+    },
+    {
+        "name": "Core i3-1005G1"
+    },
+    {
+        "name": "Core i3-10110U"
+    },
+    {
+        "name": "Core i3-10110Y"
+    },
+    {
+        "name": "Core i3-10100"
+    },
+    {
+        "name": "Core i3-10100E"
+    },
+    {
+        "name": "Core i3-10100T"
+    },
+    {
+        "name": "Core i3-10100TE"
+    },
+    {
+        "name": "Core i3-10300"
+    },
+    {
+        "name": "Core i3-10300T"
+    },
+    {
+        "name": "Core i3-10320"
+    },
+    {
+        "name": "Core i3-10100F"
+    },
+    {
+        "name": "Core i3-10100Y"
+    },
+    {
+        "name": "Core i3-10105"
+    },
+    {
+        "name": "Core i3-10105F"
+    },
+    {
+        "name": "Core i3-10105T"
+    },
+    {
+        "name": "Core i3-10305"
+    },
+    {
+        "name": "Core i3-10305T"
+    },
+    {
+        "name": "Core i3-10325"
+    },
+    {
+        "name": "Core Ultra 9 228V"
+    },
+    {
+        "name": "Core Ultra 9 285K"
+    },
+    {
+        "name": "Core Ultra 7 268V"
+    },
+    {
+        "name": "Core Ultra 7 266V"
+    },
+    {
+        "name": "Core Ultra 7 265KF"
+    },
+    {
+        "name": "Core Ultra 7 265K"
+    },
+    {
+        "name": "Core Ultra 7 258V"
+    },
+    {
+        "name": "Core Ultra 7 256V"
+    },
+    {
+        "name": "Core Ultra 5 245KF"
+    },
+    {
+        "name": "Core Ultra 5 245K"
+    },
+    {
+        "name": "Core Ultra 5 238V"
+    },
+    {
+        "name": "Core Ultra 5 236V"
+    },
+    {
+        "name": "Core Ultra 5 228V"
+    },
+    {
+        "name": "Core Ultra 5 226V"
+    }
+]
