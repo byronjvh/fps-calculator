@@ -19,8 +19,8 @@ function App () {
       }
       </select>
       <div className='flex gap-4'>
-        <SelectForm array={AMD_CPU_LIST} current='Ryzen 5 5600' />
-        <SelectForm array={INTEL_CPU_LIST} current='Core i7-14700' />
+        <SelectForm array={AMD_CPU_LIST} />
+        <SelectForm array={INTEL_CPU_LIST} />
       </div>
     </main>
   )
