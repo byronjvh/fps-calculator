@@ -39,7 +39,7 @@ export function SelectForm ({ label = 'CPU', array = [], current }) {
           name=''
           id=''
         />
-        <ul className='pt-2 max-h-[200px] w-full overflow-y-scroll text-xs grid grid-cols-2'>
+        <ul className='pt-2 max-h-[200px] w-full overflow-y-auto text-xs grid grid-cols-2'>
           {
             filteredArray.map((el, i) => (
               <li className='p-1 hover:bg-slate-200 rounded cursor-pointer' key={i}>{el.name}</li>
