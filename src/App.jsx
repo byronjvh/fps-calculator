@@ -1,39 +1,11 @@
 import { useState } from 'react'
 import './App.css'
-import { SelectForm } from './components/SelectForm'
+import { SelectSearch } from './components/SelectSearch'
 import AMD_CPU_LIST from './data/cpuAmd.json'
 import { Select } from './components/Select'
+import { CONFIG_OPTIONS, CPU_BRAND, GPU_BRAND, RAM_AMOUNT, RAM_TYPE, STORAGE_TYPE } from './consts'
 // import INTEL_CPU_LIST from './data/cpuIntel.json'
 // import NVIDIA_GPU_LIST from './data/gpuNvidia.json'
-
-const CPU_BRAND = {
-  AMD: 'AMD',
-  Intel: 'Intel'
-}
-
-const GPU_BRAND = {
-  AMD: 'AMD',
-  Nvidia: 'Nvidia'
-}
-
-const STORAGE_TYPE = {
-  M2: 'M.2',
-  SATA: 'SATA',
-  HD: 'HD'
-}
-
-const RAM_TYPE = {
-  DDR4: 'DDR4',
-  DDR5: 'DDR5'
-}
-
-const RAM_AMOUNT = {
-  _8GB: '8GB',
-  _16GB: '8GB',
-  _32GB: '8GB',
-  _64GB: '8GB',
-  _128GB: '8GB',
-}
 
 const DEFAULT_CONFIG = {
   cpuBrand: CPU_BRAND.AMD,
@@ -47,17 +19,18 @@ const DEFAULT_CONFIG = {
 
 function App () {
   const [config, setConfig] = useState(DEFAULT_CONFIG)
-  console.log(config)
 
-  const updateCpuBrand = (e) => {
-    setConfig({ ...config, cpuBrand: CPU_BRAND[e.target.value] })
+  const updateConfig = (e, name) => {
+    const copy = { ...config }
+    copy[name] = e.target.innerText
+    setConfig(copy)
   }
 
   return (
     <main className='flex flex-col items-center'>
-      <Select obj={CPU_BRAND} updateState={updateCpuBrand} />
+      <Select current={config.cpuBrand} name={CONFIG_OPTIONS.cpuBrand} obj={CPU_BRAND} updateState={updateConfig} />
       <div className='flex gap-4'>
-        <SelectForm array={AMD_CPU_LIST} />
+        <SelectSearch array={AMD_CPU_LIST} />
       </div>
     </main>
   )
