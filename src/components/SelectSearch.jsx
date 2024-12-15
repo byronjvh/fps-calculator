@@ -3,7 +3,7 @@ import { Arrow } from './Icons'
 import { useClickOutside } from '../hooks/useClickOutside'
 import { searchFilter } from '../logic/filterBySimilarity'
 
-export function SelectForm ({ label = 'CPU', array = [], current }) {
+export function SelectSearch ({ label = 'CPU', array = [], current }) {
   const [value, setValue] = useState('')
   const [open, setOpen] = useState(false)
   const optionsRef = useRef()
@@ -42,7 +42,9 @@ export function SelectForm ({ label = 'CPU', array = [], current }) {
         <ul className='pt-2 max-h-[200px] w-full overflow-y-auto text-xs grid grid-cols-2'>
           {
             filteredArray.map((el, i) => (
-              <li className='p-1 hover:bg-slate-200 rounded cursor-pointer' key={i}>{el.name}</li>
+              <li key={i}>
+                <button className='p-1 hover:bg-slate-200 rounded cursor-pointer'>{el.name}</button>
+              </li>
             ))
           }
         </ul>

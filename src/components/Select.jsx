@@ -1,9 +1,21 @@
 import { useRef, useState } from 'react'
 import { Arrow } from './Icons'
+import { useClickOutside } from '../hooks/useClickOutside'
 
-export function Select ({ label = 'CPU Brand', obj, updateState, current }) {
+export function Select ({ name, label = 'CPU Brand', obj, updateState, current }) {
   const [open, setOpen] = useState(false)
   const optionsRef = useRef()
+
+  const updateOpen = (bol) => {
+    setOpen(bol)
+  }
+
+  useClickOutside(optionsRef, updateOpen)
+
+  const handleClick = (e, name) => {
+    updateState(e, name)
+    setOpen(false)
+  }
 
   return (
     <>
@@ -20,8 +32,8 @@ export function Select ({ label = 'CPU Brand', obj, updateState, current }) {
           <ul className='pt-2 max-h-[200px] w-full overflow-y-auto text-xs grid grid-cols-2'>
             {
                 Object.keys(obj).map((key, i) => (
-                  <li key={i} value={obj[key]}>
-                    <button className='p-1 hover:bg-slate-200 rounded cursor-pointer w-full text-left'>
+                  <li key={i}>
+                    <button onClick={(e) => handleClick(e, name)} className='p-1 hover:bg-slate-200 rounded cursor-pointer w-full text-left'>
                       {obj[key]}
                     </button>
                   </li>
