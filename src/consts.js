@@ -5,7 +5,8 @@ export const CPU_BRAND = {
 
 export const GPU_BRAND = {
   AMD: 'AMD',
-  Nvidia: 'Nvidia'
+  Nvidia: 'Nvidia',
+  Intel: 'Intel'
 }
 
 export const STORAGE_TYPE = {
@@ -21,10 +22,13 @@ export const RAM_TYPE = {
 
 export const RAM_AMOUNT = {
   _8GB: '8GB',
-  _16GB: '8GB',
-  _32GB: '8GB',
-  _64GB: '8GB',
-  _128GB: '8GB',
+  _16GB: '16GB',
+  _24GB: '24GB',
+  _32GB: '32GB',
+  _48GB: '48GB',
+  _64GB: '64GB',
+  _96GB: '96GB',
+  _128GB: '128GB',
 }
 
 export const CONFIG_OPTIONS = {
