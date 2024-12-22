@@ -4,6 +4,7 @@ export const CPU_BRAND = {
 }
 
 export const GPU_BRAND = {
+  NO_GRAPHIC_CARD: 'No Graphic Card',
   AMD: 'AMD',
   Nvidia: 'Nvidia',
   Intel: 'Intel'
