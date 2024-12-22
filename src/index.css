@@ -19,3 +19,18 @@
     display: flex;
     justify-content: center;
 }
+
+.loader {
+    color: #fff;
+    width: 3px; /* Tamaño del círculo base */
+    aspect-ratio: 1;
+    border-radius: 50%;
+    box-shadow: 15px 0 0 4px, 30px 0 0 3px, 45px 0 0 0; /* Más espacio entre sombras */
+    transform: translateX(-30px); /* Ajuste del desplazamiento */
+    animation: l21 .5s infinite alternate linear;
+}
+
+@keyframes l21 {
+  50% { box-shadow: 15px 0 0 3px, 30px 0 0 4px, 45px 0 0 3px; }
+  100% { box-shadow: 15px 0 0 0, 30px 0 0 3px, 45px 0 0 4px; }
+}
