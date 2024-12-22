@@ -16,24 +16,33 @@ export function SelectSearch ({ name, label = 'CPU', array = [], current, update
     setOpen(bol)
   }
 
+  const handleClickOpen = () => {
+    if (!filteredArray[0]) return setOpen(false)
+    setOpen(prev => !prev)
+  }
+
   useClickOutside(optionsRef, updateOpen)
+
+  const filteredArray = searchFilter(value, array)
 
   const handleClick = (e, name) => {
     updateState(e, name)
     setOpen(false)
   }
 
-  const filteredArray = searchFilter(value, array)
-
   return (
     <div ref={optionsRef} className={`flex flex-col w-full relative select-button h-min ${className}`}>
       <p>{label}</p>
       <button
-        onClick={() => setOpen(prev => !prev)}
+        onClick={handleClickOpen}
         className='font-medium w-full border border-blue-400 p-2 rounded flex text-orange-600 hover:brightness-110 justify-between'
       >
         {current ?? randomPlaceholder}
-        <Arrow className={`fill-orange-500 transition-transform duration-200 ease-out origin-center ${open ? 'rotate-180' : ''}`} />
+        {
+          filteredArray[0] && (
+            <Arrow className={`fill-orange-500 transition-transform duration-200 ease-out origin-center ${open ? 'rotate-180' : ''}`} />
+          )
+        }
       </button>
       <div className={`absolute left-0 top-full w-full z-10 bg-white p-2 shadow-lg rounded overflow-hidden transition duration-200 origin-top ease-out ${!open ? 'scale-y-0 opacity-0' : 'scale-y-100 opacity-100'}`}>
         <input
