@@ -11,6 +11,7 @@ import { randomOption } from './logic/randomOption'
 import { getFPSData } from './services/openai'
 import { Route, Routes, useNavigate } from 'react-router'
 import { Landing } from './pages/Landing'
+import { Result } from './pages/Result'
 
 const DEFAULT_CONFIG = {
   cpuBrand: CPU_BRAND.AMD,
@@ -65,7 +66,6 @@ function App () {
     getFPSData(config, GAMES)
       .then((result) => {
         setResponse(result) // Guarda el texto en el estado
-        console.log(result, 'error')
       })
       .catch((error) => {
         console.error('Error fetching data:', error)
@@ -75,7 +75,6 @@ function App () {
         setLoading(false)
       })
   }
-  console.log(config)
 
   return (
 
@@ -88,17 +87,10 @@ function App () {
         />
         <Route
           path='/result' element={
-            <div>
-              {
-                  Array.isArray(response) && response?.map((el, i) => (
-                    <span key={i}>el</span>
-                  ))
-                }
-            </div>
+            <Result response={response} />
             }
         />
       </Routes>
-      <button onClick={handleClick}>getdata</button>
     </main>
 
   )
