@@ -1,7 +1,7 @@
 const apiKey = import.meta.env.VITE_OPENAI_TOKEN
 export const getFPSData = async (components, games) => {
   const dynamicPrompt = `
-  Return ONLY a JSON array where each element is an object representing a game, and includes the estimated FPS for 1080p, 1440p, and 4K in high settings. If the user does not select a dedicated GPU, detect whether the processor supports gaming without a dedicated GPU. If it does not, return an error instead of the JSON array. No additional text or explanation.  
+  Return ONLY a JSON array where each element is an object representing a game, and includes the estimated FPS for 1080p, 1440p, and 4K in high settings. If the user does not select a dedicated GPU, detect whether the processor supports gaming without a dedicated GPU. If it does not, return an error instead of the JSON array, Please note that there may be older graphics cards which you should still give an approximation, there are graphics cards from intel, amd and nvidia, you should give an approximation for all graphics cards regardless of whether you know them or not, you should give an error only if the option is 'No graphics card'. No additional text or explanation.  
 
   Here is your input:
   {
