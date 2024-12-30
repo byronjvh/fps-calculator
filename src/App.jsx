@@ -66,6 +66,7 @@ function App () {
     getFPSData(config, GAMES)
       .then((result) => {
         setResponse(result) // Guarda el texto en el estado
+        console.log(result)
       })
       .catch((error) => {
         console.error('Error fetching data:', error)
