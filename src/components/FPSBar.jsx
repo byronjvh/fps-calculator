@@ -15,7 +15,6 @@ const DEFAULT_BAR_SIZE = {
 export function FPSBar ({ el }) {
   const [size, setSize] = useState(DEFAULT_BAR_SIZE)
   const [loaded, setLoaded] = useState(false)
-
   useEffect(() => {
     const max = el.fps[RESOLUTIONS._1080p]
     setSize({
@@ -26,7 +25,6 @@ export function FPSBar ({ el }) {
 
     setTimeout(() => setLoaded(true), 100)
   }, [el])
-  console.log(loaded, size, `w-[${loaded ? size[RESOLUTIONS._4K] + '%' : 'max-content'}]`)
   return (
     <article className='w-full max-w-md flex flex-col gap-1 mb-4'>
       <p className='font-bold'>{el.name}</p>
