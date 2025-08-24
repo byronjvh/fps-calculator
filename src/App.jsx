@@ -65,8 +65,8 @@ function App () {
     setLoading(true)
     getFPSData(config, GAMES)
       .then((result) => {
-        setResponse(result) // Guarda el texto en el estado
-        console.log(result)
+        const rawMessage = result
+        setResponse(JSON.parse(rawMessage))
       })
       .catch((error) => {
         console.error('Error fetching data:', error)
@@ -84,12 +84,12 @@ function App () {
         <Route
           path='/' element={
             <Landing onSubmit={handleClick} config={config} loading={loading} updateConfig={updateConfig} cpuArrayToUse={cpuArrayToUse} gpuArrayToUse={gpuArrayToUse} />
-            }
+          }
         />
         <Route
           path='/result' element={
             <Result response={response} />
-            }
+          }
         />
       </Routes>
     </main>

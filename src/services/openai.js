@@ -1,7 +1,25 @@
-const apiKey = import.meta.env.VITE_OPENAI_TOKEN
+// const apiKey = import.meta.env.VITE_AI_KEY
 export const getFPSData = async (components, games) => {
   const dynamicPrompt = `
-  Return ONLY a JSON array where each element is an object representing a game, and includes the estimated FPS for 1080p, 1440p, and 4K in high settings. you should give an approximation for all graphics cards regardless of whether you know them or not, you should give an error only if the option is 'No graphics card', No additional text or explanation.  
+  You are a JSON generator. 
+  Return ONLY a valid JSON array. 
+  ⚠️ Do not include explanations, markdown formatting, comments, or line breaks.
+
+  Each element must be an object with this exact structure:
+  {
+    "name": "some game name",
+    "fps": {
+      "1080p": number,
+      "1440p": number,
+      "4K": number
+    }
+  }
+
+  Rules:
+  - Always provide approximations for FPS, even if the GPU is unknown. 
+  - The ONLY case you return an error is when "No graphics card" is detected.
+  - Do not include any keys other than "name" and "fps".
+  - Output must be a single JSON array, compact (no whitespace, no line breaks).
 
   Here is your input:
   {
@@ -9,92 +27,38 @@ export const getFPSData = async (components, games) => {
     "games": ${JSON.stringify(games)}
   }
 
-  Output: Every game with this format:
-  {
-    name: "some game name",
-    fps: {
-      1080p: 100,
-      1440p: 60
-      4K: 30
-    }
-  }
-
-  Provide only the JSON array as output, return completly and without lines break
+  Output: JSON array only.
   `
 
-  const url = 'https://open-ai21.p.rapidapi.com/chatgpt'
+  const url = 'https://deepseek-v31.p.rapidapi.com/'
   const options = {
     method: 'POST',
     headers: {
-      'x-rapidapi-key': apiKey,
-      'x-rapidapi-host': 'open-ai21.p.rapidapi.com',
-      'Content-Type': 'application/json'
+      'x-rapidapi-key': '89a5921ab1mshfc83db7800484cep1ded19jsn762ad5fea011',
+      'x-rapidapi-host': 'deepseek-v31.p.rapidapi.com',
+      'Content-Type': 'application/json',
     },
     body: JSON.stringify({
+      model: 'DeepSeek-V3-0324',
       messages: [
         {
           role: 'user',
-          content: dynamicPrompt
-        }
+          content:
+            dynamicPrompt,
+        },
       ],
-      web_access: false
-
-    })
+    }),
   }
 
   try {
     const response = await fetch(url, options)
     const result = await response.json()
-    const parsedResponse = JSON.parse(result.result)
-    return parsedResponse
+    if (result.choices[0].message.content) {
+      return result.choices[0].message.content
+    } else {
+      return result.choices[0].message.reasoning_content
+    }
   } catch (error) {
     return error
   }
 }
-
-// import OpenAI from 'openai'
-
-// const openai = new OpenAI({
-//   apiKey,
-//   dangerouslyAllowBrowser: true
-// })
-
-// export const getFPSData = async (components, games) => {
-//   const dynamicPrompt = `
-//   Input: A JSON object with the following structure:
-//   {
-//     "components": {
-//       "cpu": string,
-//       "gpu": string,
-//       "ram": string
-//     },
-//     "games": Array<string>
-//   }
-
-//   Output: Return ONLY a JSON array where each element is an object representing a game, and includes the estimated FPS for 1080p, 1440p, and 4K in high settings. If the user does not select a dedicated GPU, detect whether the processor supports gaming without a dedicated GPU. If it does not, return an error instead of the JSON array. No additional text or explanation.
-
-//   Here is your input:
-//   {
-//     "components": ${JSON.stringify(components)},
-//     "games": ${JSON.stringify(games)}
-//   }
-
-//   Provide only the JSON array as output.
-//   `
-
-//   try {
-//     const completion = await openai.chat.completions.create({
-//       model: 'o1-mini-2024-09-12',
-//       messages: [
-//         { role: 'system', content: 'You are an AI that generates FPS estimates for given hardware and games.' },
-//         {
-//           role: 'user',
-//           content: dynamicPrompt,
-//         },
-//       ],
-//     })
-//     return completion.choices[0].message.content.trim()
-//   } catch (e) {
-//     return e
-//   }
-// }
