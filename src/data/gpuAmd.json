@@ -142,5 +142,17 @@
     },
     {
         "name": "Radeon RX 7900 XTX"
+    },
+    {
+        "name": "Radeon RX 9070 XT"
+    },
+    {
+        "name": "Radeon RX 9070"
+    },
+    {
+        "name": "Radeon RX 9060 XT"
+    },
+    {
+        "name": "Radeon RX 9060"
     }
 ]
