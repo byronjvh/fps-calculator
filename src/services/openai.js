@@ -1,4 +1,4 @@
-// const apiKey = import.meta.env.VITE_AI_KEY
+const apiKey = import.meta.env.VITE_API_KEY
 export const getFPSData = async (components, games) => {
   const dynamicPrompt = `
   You are a JSON generator. 
@@ -34,7 +34,7 @@ export const getFPSData = async (components, games) => {
   const options = {
     method: 'POST',
     headers: {
-      'x-rapidapi-key': '89a5921ab1mshfc83db7800484cep1ded19jsn762ad5fea011',
+      'x-rapidapi-key': apiKey,
       'x-rapidapi-host': 'deepseek-v31.p.rapidapi.com',
       'Content-Type': 'application/json',
     },
