@@ -1,3 +1,4 @@
+import { GitHub } from '../components/Icons'
 import { Select } from '../components/Select'
 import { SelectSearch } from '../components/SelectSearch'
 import { CONFIG_OPTIONS, CPU_BRAND, GPU_BRAND, RAM_AMOUNT, RAM_TYPE, STORAGE_TYPE } from '../consts'
@@ -27,6 +28,7 @@ export function Landing ({ config, loading, onSubmit, updateConfig, cpuArrayToUs
             loading && (<span className='loader absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2' />)
           }
         </button>
+        <a className='self-center flex gap-1 font-bold text-blue-900 hover:brightness-150' href='https://github.com/byronjvh/fps-calculator' rel='noopener noreferer'>Visit GitHub<GitHub /></a>
       </div>
     </>
   )
